@@ -1,2 +1,2 @@
 FROM tomcat
-COPY COPY . /path/to/dir/in/image
+COPY target/*.war /usr/local/tomcat/webapps/ROOT.war
